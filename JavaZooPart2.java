@@ -53,7 +53,7 @@ class ZooAnimal {
     public ZooAnimal() {
         this.name = "Rose";
         this.type = "kita";
-        this.age = 4;
+        this.age = 9;
         this.hungry = false;
     }
 
