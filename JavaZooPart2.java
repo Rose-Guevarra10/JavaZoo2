@@ -14,13 +14,13 @@ public class JavaZoo {
 
         ZooAnimal animal = new ZooAnimal();
         ZooAnimal animal2 = new ZooAnimal();
-        ZooAnimal animal3 = new ZooAnimal("olivia", "cat", 2, true);
+        ZooAnimal animal3 = new ZooAnimal("Sky", "rabbit", 2, true);
 
         // setter
         // reference.method;
-        animal.setName("smokey");
-        animal.setType("cat");
-        animal.setAge(16);
+        animal.setName("garry");
+        animal.setType("rabbit");
+        animal.setAge(8);
         animal.setHungry(true);
         // getter
 
@@ -51,7 +51,7 @@ class ZooAnimal {
     private boolean hungry;
 
     public ZooAnimal() {
-        this.name = "yowyowlain";
+        this.name = "Rose";
         this.type = "kita";
         this.age = 4;
         this.hungry = false;
