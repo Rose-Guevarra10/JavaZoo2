@@ -51,8 +51,8 @@ class ZooAnimal {
     private boolean hungry;
 
     public ZooAnimal() {
-        this.name = "Rose";
-        this.type = "kita";
+        this.name = "Akemi";
+        this.type = "tiga kain";
         this.age = 9;
         this.hungry = false;
     }
